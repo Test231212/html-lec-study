@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .nav {
+            margin: 20;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+
+        .main {
+            height: 1000px;
+            display: grid;
+            background-color: yellow;
+            grid-template-columns: auto auto;
+        }
+
+        .left {
+            header {
+                background-image: url('images/vacation.jpg');
+                background-size: cover;
+            }
+        }
+
+        .right {
+            background-color: #F8ECEB;
+            padding-left: 0px;
+
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 10px;
+
+        }
+
+        .info {
+            display: grid;
+            justify-content: end;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="zuzu">zuzu</div>
+        <div class="menu">
+            <div>about</div>
+            <div>collections</div>
+            <div>videos</div>
+            <div>contact</div>
+        </div>
+        <div class="info">
+            <div>ENG</div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="left"></div>
+        <div class="right">
+            <h2 style="font-size: 50px;">New<br>collection</h2>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

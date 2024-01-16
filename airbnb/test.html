@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            margin: 20px;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+
+        .main {
+            height: 1000px;
+            display: grid;
+            background-color: yellow;
+            grid-template-columns: auto auto;
+        }
+
+        .left {
+            background-image: url('이미지경로/vacation.jpg');
+            /* 이미지 경로를 실제 경로로 수정하세요 */
+            background-size: cover;
+        }
+
+        .right {
+            background-color: #F8ECEB;
+            padding: 20px;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column-gap: 10px;
+            align-items: center;
+        }
+
+        .info {
+            justify-self: end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="zuzu">zuzu</div>
+        <div class="menu">
+            <div>소개</div>
+            <div>컬렉션</div>
+            <div>비디오</div>
+            <div>연락처</div>
+        </div>
+        <div class="info">
+            <div>ENG</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="left"></div>
+        <div class="right">
+            <h2 style="font-size: 50px;">새로운<br>컬렉션</h2>
+        </div>
+    </div>
+</body>
+
+</html>
